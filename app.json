@@ -1,0 +1,16 @@
+{
+    "name": "rclone",
+    "description": "Deploy rclone on Heroku.",
+    "keywords": ["rclone"],
+    "env": {
+        "rclone": {
+            "description": "$HOME/.config/rclone/rclone.conf",
+            "value": ""
+        },
+        "6pan": {
+            "description": "$HOME/config.json",
+            "value": ""
+        }
+    },
+    "stack": "container"
+}
