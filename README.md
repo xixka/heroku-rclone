@@ -4,7 +4,7 @@
 ## 部署rclone
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.git)
 ## 部署rclone+6pan
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.git#6pan)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.githttps://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.git/tree/6pan)
 ## ENV 设定
 ### config
 rclone config文件内容
