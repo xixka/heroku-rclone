@@ -4,7 +4,7 @@ USER root
 
 ADD configure.sh /configure.sh
 
-RUN apt update && apt install -y wget ca-certificates curl p7zip* htop unzip vim nload gosu \
+RUN apt update && apt install -y wget ca-certificates curl p7zip* htop unzip vim nload \
 &&  apt install -y tcptraceroute net-tools iputils-ping  dnsutils screen \
 &&  chmod -R 777 /run/screen  \
 &&  chmod +x /configure.sh \
