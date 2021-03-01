@@ -1,7 +1,5 @@
 FROM debian:10
 
-USER root
-
 ADD configure.sh /configure.sh
 
 RUN apt update && apt install -y wget ca-certificates curl p7zip* htop unzip vim nload \
