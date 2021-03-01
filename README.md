@@ -1,6 +1,6 @@
 # Heroku rclone
 ## 概述
-用于在 Heroku 上部署 rclone。
+用于在 Heroku 上部署 rclone，可以使用tmux分屏。
 ## 部署rclone
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.git)
 ## 部署rclone+6pan
@@ -10,6 +10,7 @@
 rclone config文件内容
 ## 运行
 ### 连接终端
+需要安装heroku-cli
 ```
 heroku run bash -a myapp
 ```
