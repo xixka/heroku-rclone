@@ -2,7 +2,7 @@ FROM debian:10
 
 ADD configure.sh /configure.sh
 
-RUN apt update && apt install -y wget ca-certificates curl p7zip* htop unzip vim nload \
+RUN apt update && apt install -y wget ca-certificates curl p7zip* htop unzip vim nano nload \
 &&  apt install -y tcptraceroute net-tools iputils-ping  dnsutils tmux \
 &&  chmod +x /configure.sh \
 &&  curl https://rclone.org/install.sh | bash \
