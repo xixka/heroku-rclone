@@ -8,12 +8,13 @@
 
 ## 运行 
 `以下所有操作需要安装heroku-cli`
-### 连接终端
+### 连接heroku容器
 
 ```
 heroku run bash -a myapp
 ```
 ### 运行rclone
+`以下所有操作需要使用heroku-cli连接heroku容器`
 #### 编辑rclone配置
 ```
 rclone config
