@@ -7,7 +7,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.git/tree/6pan)
 
 ## 运行 
-<font color="#dd0000">以下所有操作需要安装heroku-cli</font>
+`以下所有操作需要安装heroku-cli`
 ### 连接终端
 
 ```
