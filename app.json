@@ -5,7 +5,8 @@
     "env": {
         "rclone": {
             "description": "$HOME/.config/rclone/rclone.conf",
-            "value": ""
+            "value": "",
+            "required": false
         }
     },
     "stack": "container"
