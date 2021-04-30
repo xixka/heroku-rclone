@@ -2,7 +2,7 @@ FROM debian:10
 
 ADD .profile /.profile
 
-RUN apt update && apt install -y wget ca-certificates curl p7zip*  unzip vim htop nano nload \
+RUN apt update && apt install -y wget ca-certificates curl p7zip*  unzip vim htop nano nload bash-completion \
 &&  apt install -y tcptraceroute net-tools iputils-ping  dnsutils tmux \
 &&  curl https://rclone.org/install.sh | bash \
 &&  mkdir /tmp/x && cd /tmp/x \
