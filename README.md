@@ -24,3 +24,8 @@ fclone
 ```shell
 heroku run "fclone -P --transfers=5 copy 6:1 ftp:2"  -a myapp
 ```
+### 天翼云盘命令行客户端
+```
+heroku run "ty"  -a myapp
+```
+[使用说明](https://github.com/tickstep/cloudpan189-go)
