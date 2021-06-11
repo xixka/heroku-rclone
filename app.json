@@ -7,6 +7,11 @@
             "description": "$HOME/.config/rclone/rclone.conf",
             "value": "",
             "required": false
+        },
+        "rcloneforurl": {
+            "description": "通过url加载rclone配置（为空不加载）",
+            "value": "",
+            "required": false
         }
     },
     "stack": "container"
