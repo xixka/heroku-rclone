@@ -4,7 +4,7 @@
     "keywords": ["rclone"],
     "env": {
         "rclone": {
-            "description": "$HOME/.config/rclone/rclone.conf",
+            "description": "$HOME/.rclone.conf",
             "value": "",
             "required": false
         },
