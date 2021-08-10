@@ -2,7 +2,7 @@
 ## 概述
 用于在 Heroku 上部署 rclone屏，自动从环境变量中加载rclone配置。
 ## 部署rclone
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/wellsyue/heroku-rclone.git)
 ## 运行 
 `以下所有操作需要安装heroku-cli`
 ### 连接heroku容器
