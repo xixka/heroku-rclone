@@ -1,3 +1,7 @@
+# heroku好像已经禁止跑rclone搬运文件，可能会导致账号被禁止登陆
+# heroku好像已经禁止跑rclone搬运文件，可能会导致账号被禁止登陆
+# heroku好像已经禁止跑rclone搬运文件，可能会导致账号被禁止登陆
+
 # Heroku rclone
 ## 概述
 用于在 Heroku 上部署 rclone屏，自动从环境变量中加载rclone配置。
